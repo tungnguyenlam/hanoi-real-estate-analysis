@@ -10,22 +10,16 @@ This project analyzes the real estate market in Hanoi using data scraped from [G
 hanoi-real-estate-analysis/
 │
 ├── data/                     # Contains raw and processed datasets
+|---|-- figures/              # Contains figures
 │   ├── guland_hanoi_listings_arcgis1.csv  # Raw dataset
 │   ├── guland_hanoi_listings_arcgis2.csv  # Cleaned dataset
 │
 ├── notebook/                 # Jupyter Notebooks for data processing and analysis
+│   ├── 1_webscrape.ipynb            # Data scraping and initial data cleaning
 │   ├── s1_data_cleaning.ipynb            # Data cleaning and preprocessing
 │   ├── s2_exploratory_analysis.ipynb     # Exploratory data analysis
 |   |-- s3_generate_features_prepare.ipynb
 |   |-- s4_generate_features.ipynb
-│
-├── scripts/                  # Python scripts for automation
-│   ├── 1_webscrape.py                   # Web scraping script
-│   ├── 2_data_cleaning.py               # Data cleaning script
-│
-├── images/                   # Visualizations and plots
-│   ├── correlation_matrix.png
-│   ├── heatmap_property_listings.png
 │
 ├── README.md                 # Project documentation
 └── requirements.txt          # Python dependencies
