@@ -14,6 +14,7 @@ hanoi-real-estate-analysis/
 │   ├── guland_hanoi_listings_arcgis2.csv  # Cleaned dataset
 │
 ├── notebook/                 # Jupyter Notebooks for data processing and analysis
+│   ├── 1_webscrape.ipynb            # Data scraping and initial data cleaning
 │   ├── s1_data_cleaning.ipynb            # Data cleaning and preprocessing
 │   ├── s2_exploratory_analysis.ipynb     # Exploratory data analysis
 |   |-- s3_generate_features_prepare.ipynb
