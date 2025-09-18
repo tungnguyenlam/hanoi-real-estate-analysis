@@ -53,6 +53,15 @@ hanoi-real-estate-analysis/
    pip install -r requirements.txt
    ```
 
+4. **Install the dataset**
+
+- Make sure you are in hanoi-real-esatate-analysis/
+
+  ```bash
+  chmod +x ./set_up_dataset.sh
+  ./set_up_dataset.sh
+  ```
+
 ## Key Features
 
 ### notebook/s1_data_cleaning.ipynb
